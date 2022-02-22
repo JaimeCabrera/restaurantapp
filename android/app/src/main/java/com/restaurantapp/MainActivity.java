@@ -12,4 +12,9 @@ public class MainActivity extends ReactActivity {
   protected String getMainComponentName() {
     return "restaurantapp";
   }
+  //para la navegacion de
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(null);
+  }
 }
