@@ -1,3 +1,11 @@
-import {firebase, db, storage, doc, getDocs, onSnapshot} from './firebase';
+import {
+  firebase,
+  db,
+  storage,
+  doc,
+  getDocs,
+  onSnapshot,
+  collection,
+} from './firebase';
 
-export {firebase, db, storage, doc, getDocs, onSnapshot};
+export {firebase, db, storage, doc, getDocs, onSnapshot, collection};
